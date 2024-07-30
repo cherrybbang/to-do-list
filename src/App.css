@@ -1,0 +1,36 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+}
+.todolistWrap {
+    width: 600px; height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+}
+.headingArea {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.desctext {
+    margin: 30px 0;
+    font-weight: bold;
+}
+.todoList {
+    padding: 0;
+}
+.todoItem {
+    width: 300px;
+    margin-top: 10px;
+}
+.inputText {
+    width: 300px; height: 40px;
+}
+button {
+    width: 50px; height: 30px;
+    margin-left: 20px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+}
