@@ -19,14 +19,14 @@ function ToDoList() {
     }
 
     return (
-        <div className={'todoListBox'}>
+        <div>
             <ul className={'todoList'}>
                 {list.map((item, index) => (
                     <li key={index} className={'todoItem'}>
                         <label>
-                        <span className={'labelText'}>{item}</span>
+                        <span>{item}</span>
                         </label>
-                        <button type={'button'} className={'btnDel'} onClick={() => handleDelete(index)}>삭제</button>
+                        <button type={'button'} onClick={() => handleDelete(index)}>삭제</button>
                     </li>
                 ))}
             </ul>

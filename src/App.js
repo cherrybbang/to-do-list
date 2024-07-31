@@ -1,10 +1,10 @@
-// import { useState } from "react";
+// 기본구조작성
 import ToDoList from './components/todoList';
 
 function ToDoHead() {
   return (
     <div className={'headingArea'}>
-      <h1 className={'heading_h1'}>NOTE.</h1>
+      <h1>NOTE.</h1>
       <p className={'desctext'}>할 일을 적어주세요!</p>
     </div>
   )
@@ -12,8 +12,8 @@ function ToDoHead() {
 
 function ToDoContent() {
   return (
-    <div className={'listArea'}>
-      <div className={'listBox'}>
+    <div>
+      <div>
         <ToDoList></ToDoList>
       </div>
     </div>
